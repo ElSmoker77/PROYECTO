@@ -1,0 +1,37 @@
+estilos.css
+*{
+	margin: 8px;
+	padding: 8px;
+}
+
+div#general{
+	margin: auto;
+	margin-top: 50px;
+	width: 900px;
+	height: 800px;
+	background: red;
+}
+
+div#bloque1{
+	float: right;
+	width: 300px;
+	height: 800px;
+	background-color: green ;
+}
+
+div#bloque2{
+	width: 580px;
+	height: 200px;
+	background-color: blue;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+div#bloque3{
+	width: 580px;
+	height: 522px;
+	background-color: brown;
+	margin-top: 10px;
+}
